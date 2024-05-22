@@ -1,0 +1,42 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-green: #19a337;
+}
+
+body {
+  height: 100vh;
+  font-family: "Raleway";
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  background: var(--main-green);
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 48px;
+}
+
+#navbar ul li {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #FFF;
+  display: block;
+  padding: 24px;
+}
+
+#navbar ul li a:hover {
+  color: #000;
+  background: #FFF;
+}
