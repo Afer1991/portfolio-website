@@ -7,8 +7,7 @@
   --main-green: #19a337;
 }
 
-body {
-  height: 100vh;
+html {
   font-family: "Raleway";
 }
 
@@ -39,4 +38,28 @@ body {
 #navbar ul li a:hover {
   color: #000;
   background: #FFF;
+}
+
+#welcome {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+h1, h2{
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #FFF;
+}
+
+#welcome p {
+  font-size: 2rem;
+  font-style: italic;
+  color: var(--main-green);
 }
