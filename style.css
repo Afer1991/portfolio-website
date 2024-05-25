@@ -10,11 +10,11 @@
 }
 
 :root {
-  --black: #07070A;
-  --raisin-black: #24272B;
-  --outer-space: #4A525A;
-  --cobalt-blue: #004BA8;
-  --UCLA-blue: #3E78B2;
+  --rich-black: #00171F;
+  --white: #FFFFFF;
+  --cerulean: #007EA7;
+  --picton-blue: #00A8E8;
+  --prussian-blue: #003459;
 }
 
 html {
@@ -24,7 +24,7 @@ html {
 #navbar {
   position: fixed;
   width: 100%;
-  background: var(--cobalt-blue);
+  background: var(--cerulean);
 }
 
 #navbar ul {
@@ -40,14 +40,14 @@ html {
 
 #navbar ul li a {
   text-decoration: none;
-  color: #FFF;
+  color: var(--white);
   display: block;
   padding: 24px;
 }
 
 #navbar ul li a:hover {
   color: #000;
-  background: #FFF;
+  background: var(--white);
 }
 
 #welcome {
@@ -56,7 +56,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: var(--black);
+  background: var(--rich-black);
 }
 
 h1, h2{
@@ -65,17 +65,17 @@ h1, h2{
 
 h1 {
   font-size: 4rem;
-  color: #FFF;
+  color: var(--white);
 }
 
 #welcome p {
   font-size: 2rem;
   font-style: italic;
-  color: var(--UCLA-blue);
+  color: var(--picton-blue);
 }
 
 #projects {
-  background: var(--UCLA-blue);
+  background: var(--prussian-blue);
   padding-bottom: 96px;
 }
 
@@ -99,12 +99,12 @@ a {
   text-align: center;
   color: #FFF;
   font-weight: bolder;
-  background: var(--outer-space);
+  background: var(--cerulean);
   padding: 8px 0;
 }
 
 #contact {
-  background: var(--black);
+  background: var(--rich-black);
   height: 75vh;
   display: flex;
   flex-direction: column;
@@ -114,13 +114,13 @@ a {
 
 form {
   padding: 32px;
-  border: 2px solid #FFF;
+  border: 2px solid var(--white);
   border-radius: 10px;
 }
 
 #contact h2 {
   font-size: 2.5rem;
-  color: #FFF;
+  color: var(--white);
   margin-bottom: 8px;
 }
 
@@ -151,7 +151,7 @@ form p:nth-of-type(4) {
   font-size: 1.17rem;
   font-family: "Raleway";
   border: none;
-  background: #FFF;
+  background: var(--white);
   font-weight: bolder;
   cursor: pointer;
 }
@@ -159,7 +159,7 @@ form p:nth-of-type(4) {
 #contact a {
   margin-top: 96px;
   text-decoration: none;
-  color: #FFF;
+  color: var(--white);
   font-size: 1.6rem;
   transition-duration: 0.5s;
 }
